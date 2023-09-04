@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de invitados</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="pmain.js"></script>
+
+</head>
+<body>
+<center>
+
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de invitados a mi fiesta
+</h3>
+<div id="rows">
+<span>
+    <input type="text" placeholder="Ingresa el nombre del invitado" id="nombre_invitado">
+</span>
+<button onclick="submit()" id="botón_enviar">
+    Enviar
+</button>
+<br>
+<div id="ver_nombre_con_comas"></div>
+
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de invitados a mi fiesta
+</h3>
+<button onclick="showNames()" id="botón_mostrar">
+	Mostrar
+</button>
+<br><br>
+<div id="ver_nombre_sin_comas"></div>
+<hr>
+<button onclick="sorting()" id="botón_ordenar">
+	Ordenar
+</button>
+<br><br>
+<div id="ver_nombre_ordenado"></div>
+<hr>
+<span><input type="text" placeholder="Ingresa un nombre" id="nombreBusqueda"></span>
+<span><button onclick="search()" id="botón_buscar">Buscar</button></span>
+
+</div>
+<br>
+</center>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
